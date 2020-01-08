@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-08T09:34:49.732Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="lDH7YX3a99j3CJXu8rYv" version="12.4.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-08T11:22:40.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="BVQP_ufEzPsf5oQBvP35" version="12.4.9" type="github" pages="5">
   <diagram id="4lKn0QCqxNmCEj1VRbfb" name="第 1 页">
     <mxGraphModel dx="772" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -269,6 +269,29 @@
         </mxCell>
         <mxCell id="k-UZFSW6Op25TSe0FqoG-17" value="Node层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=0" vertex="1" parent="k-UZFSW6Op25TSe0FqoG-1">
           <mxGeometry x="50" y="200" width="60" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q3AhuSlKCMys_KR_uGv6" name="第 5 页">
+    <mxGraphModel dx="772" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-0"/>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-1" parent="olIs3tWVY88XHuPTbE-E-0"/>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=15;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-2" target="olIs3tWVY88XHuPTbE-E-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-2" value="Node端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
+          <mxGeometry x="150" y="50" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=15;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-3" target="olIs3tWVY88XHuPTbE-E-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-3" value="路由的组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
+          <mxGeometry x="150" y="150" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-5" value="&lt;font style=&quot;font-size: 13px&quot;&gt;通过react-router中matchPath去匹配路由&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
+          <mxGeometry x="130" y="240" width="160" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
