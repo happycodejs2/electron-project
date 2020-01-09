@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T03:06:42.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="GBl0wvWWE9YPxZ_PopQ5" version="12.4.9" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-01-09T03:24:11.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="1kz1kt_nDHTOrT9ZEHeQ" version="12.4.9" type="github" pages="5">
   <diagram id="4lKn0QCqxNmCEj1VRbfb" name="第 1 页">
     <mxGraphModel dx="772" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -325,6 +325,12 @@
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-15" value="node通过调用后端接口获取数据放到redux的store里" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
           <mxGeometry x="130" y="540" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-20" value="通过ReactDOMServer的renderToString方法来解析react组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
+          <mxGeometry x="90" y="665" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-21" value="给window对象增加属性赋值store的state值" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
+          <mxGeometry x="340" y="665" width="180" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
