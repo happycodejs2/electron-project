@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T03:24:11.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="1kz1kt_nDHTOrT9ZEHeQ" version="12.4.9" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-01-09T03:37:29.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="JAiIWTy482UxKuBPJP-b" version="12.4.9" type="github" pages="5">
   <diagram id="4lKn0QCqxNmCEj1VRbfb" name="第 1 页">
     <mxGraphModel dx="772" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -279,58 +279,66 @@
         <mxCell id="olIs3tWVY88XHuPTbE-E-0"/>
         <mxCell id="olIs3tWVY88XHuPTbE-E-1" parent="olIs3tWVY88XHuPTbE-E-0"/>
         <mxCell id="olIs3tWVY88XHuPTbE-E-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;dashed=1;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="60" y="640" width="490" height="100" as="geometry"/>
+          <mxGeometry x="150" y="630" width="427" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=15;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-2" target="olIs3tWVY88XHuPTbE-E-3">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-2" value="Node端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="150" y="50" width="120" height="50" as="geometry"/>
+          <mxGeometry x="297" y="40" width="120" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=15;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-3" target="olIs3tWVY88XHuPTbE-E-5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-3" value="路由的组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="150" y="150" width="120" height="40" as="geometry"/>
+          <mxGeometry x="297" y="140" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=13;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-5" target="olIs3tWVY88XHuPTbE-E-8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-5" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;通过react-router中matchPath去匹配路由&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="130" y="230" width="160" height="50" as="geometry"/>
+          <mxGeometry x="277" y="220" width="160" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=13;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-8" target="olIs3tWVY88XHuPTbE-E-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="450" as="targetPoint"/>
+            <mxPoint x="357" y="440" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-8" value="&lt;font style=&quot;font-size: 13px&quot;&gt;拿到匹配路由的组件，分析组件的静态方法&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="130" y="320" width="160" height="50" as="geometry"/>
+          <mxGeometry x="277" y="310" width="160" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-7" value="获取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="210" y="110" width="40" height="20" as="geometry"/>
+          <mxGeometry x="357" y="100" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-12" target="olIs3tWVY88XHuPTbE-E-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="520" as="targetPoint"/>
+            <mxPoint x="357" y="510" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-23" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-12" target="olIs3tWVY88XHuPTbE-E-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="507" y="440" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-12" value="组件是否有静态方法" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="140" y="410" width="140" height="80" as="geometry"/>
+          <mxGeometry x="287" y="400" width="140" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=13;" edge="1" parent="olIs3tWVY88XHuPTbE-E-1" source="olIs3tWVY88XHuPTbE-E-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="640" as="targetPoint"/>
+            <mxPoint x="357" y="630" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-15" value="node通过调用后端接口获取数据放到redux的store里" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="130" y="540" width="160" height="60" as="geometry"/>
+          <mxGeometry x="277" y="530" width="160" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-20" value="通过ReactDOMServer的renderToString方法来解析react组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="90" y="665" width="180" height="50" as="geometry"/>
+          <mxGeometry x="167" y="645" width="180" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="olIs3tWVY88XHuPTbE-E-21" value="给window对象增加属性赋值store的state值" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
-          <mxGeometry x="340" y="665" width="180" height="50" as="geometry"/>
+          <mxGeometry x="377" y="645" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="olIs3tWVY88XHuPTbE-E-25" value="通过ReactDOMServer的renderToString方法来解析react组件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="olIs3tWVY88XHuPTbE-E-1">
+          <mxGeometry x="490" y="530" width="167" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
